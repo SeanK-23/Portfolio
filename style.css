@@ -42,13 +42,33 @@ canvas {
   left: 0;
 }
 
+.social-icon {
+  font-size: 80px;
+  color: #0077B5; /* Lighter blue color */
+  margin: 0 80px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
+.social-icon:hover {
+  color: #00599E; /* Darker blue color on hover */
+}
+
+.content-links a {
+  color: #0077B5; /* Lighter blue color */
+}
+
+/* Style for the lighter blue color on hover */
+.content-links a:hover {
+  color: #00599E; /* Darker blue color on hover */
+}
 
   header {
     background: var(--dark-bg);
     grid-column: 2 / span 5;
     font-size: 2.5rem;
     padding: 2rem;
+    border-radius: 10px;
     margin-bottom: var(--spacing);
   }
 
@@ -58,6 +78,7 @@ canvas {
     background: var(--dark-bg);
     font-size: 1.25rem;
     line-height: 1.5;
+    border-radius: 10px;
     margin-bottom: var(--spacing);
   }
 
@@ -65,6 +86,7 @@ canvas {
     margin: 0;
     padding: 0;
     grid-column: 2 / span 9;
+    border-radius: 10px;
     margin-bottom: var(--spacing);
   }
 
@@ -73,6 +95,7 @@ canvas {
     background-color: white;
     font-size: 4rem;
     display: inline;
+    border-radius: 10px;
     line-height: 1;
   }
 
